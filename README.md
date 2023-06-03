@@ -32,5 +32,12 @@ CREATE DATABASE flight_reservation;
 ```sql
 CREATE TABLE `flight_reservation`.`users` ( `id` INT(11) NOT NULL AUTO_INCREMENT , `email` VARCHAR(30) NOT NULL , `password` VARCHAR(30) NOT NULL , `first_name` VARCHAR(30) NOT NULL , `last_name` VARCHAR(30) NOT NULL , `level` VARCHAR(6) NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
 ```
-
+- To create "flights" table
+```sql
+CREATE TABLE `flight_reservation`.`flights` ( `id` INT(11) NOT NULL AUTO_INCREMENT , `from_location` VARCHAR(30) NOT NULL , `to_location` VARCHAR(30) NOT NULL , `flight_date` DATE NOT NULL , `departure_time` DATETIME NOT NULL , `arrival_time` DATETIME NOT NULL , `eco_price` INT(11) NOT NULL , `business_price` INT(11) NOT NULL , `first_price` INT(11) NOT NULL , `eco_count` INT(11) NOT NULL , `business_count` INT(11) NOT NULL , `first_count` INT(11) NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
+```
+- To create "pnr" table
+```sql
+CREATE TABLE `flight reservation`.`pnr`(`id` INT(11) NOT NULL AUTO_INCREMENT, `user_id` INT(11) FOREIGN KEY REFERENCES users(id), `flight_id` FOREIGN KEY REFERENCES flights(id), `seat_no` INT(11) NOT NULL, PRIMARY KEY(`id`)) ENGINE = InnoDB;
+```
 

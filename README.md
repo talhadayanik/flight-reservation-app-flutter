@@ -28,5 +28,9 @@ Admin can delete members by clicking on them.
 ```sql
 CREATE DATABASE flight_reservation;
 ```
+-To create "users" table
+```sql
+CREATE TABLE `flight_reservation`.`users` ( `id` INT(11) NOT NULL AUTO_INCREMENT , `email` VARCHAR(30) NOT NULL , `password` VARCHAR(30) NOT NULL , `first_name` VARCHAR(30) NOT NULL , `last_name` VARCHAR(30) NOT NULL , `level` VARCHAR(6) NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
+```
 
 

@@ -7,7 +7,7 @@ A flight reservation app with Flutter
 - PHP
 
 ## Database
-### Conceptional Design
+- Conceptional Design
 <img src="flight_reservation/screenshots/conceptual_design.png" width=500>
-### Logical Design
+- Logical Design
 <img src="flight_reservation/screenshots/logical_design.png" width=500>

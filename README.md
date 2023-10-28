@@ -7,21 +7,21 @@ A flight reservation app with Flutter
 - PHP
 
 ## Screens
-<img src="flight_reservation/screenshots/screens/login.png" width=300>          <img src="flight_reservation/screenshots/screens/register.png" width=300>          <img src="flight_reservation/screenshots/screens/profile.png" width=300>
+<img src="screenshots/screens/login.png" width=300>          <img src="screenshots/screens/register.png" width=300>          <img src="screenshots/screens/profile.png" width=300>
 
 ### As member
-<img src="flight_reservation/screenshots/screens/member/member0.png" width=300>When the table is scrolled, price information is also available.<img src="flight_reservation/screenshots/screens/member/member1.png" width=300>          <img src="flight_reservation/screenshots/screens/member/member2.png" width=300>          <img src="flight_reservation/screenshots/screens/member/member3.png" width=300>          <img src="flight_reservation/screenshots/screens/member/member4.png" width=300>
+<img src="screenshots/screens/member/member0.png" width=300>When the table is scrolled, price information is also available.<img src="screenshots/screens/member/member1.png" width=300>          <img src="screenshots/screens/member/member2.png" width=300>          <img src="screenshots/screens/member/member3.png" width=300>          <img src="screenshots/screens/member/member4.png" width=300>
 
 ### As admin
-<img src="flight_reservation/screenshots/screens/admin/admin0.png" width=300>          <img src="flight_reservation/screenshots/screens/admin/admin1.png" width=300>          <img src="flight_reservation/screenshots/screens/admin/admin2.png" width=300>          <img src="flight_reservation/screenshots/screens/admin/admin3.png" width=300>
+<img src="screenshots/screens/admin/admin0.png" width=300>          <img src="screenshots/screens/admin/admin1.png" width=300>          <img src="screenshots/screens/admin/admin2.png" width=300>          <img src="screenshots/screens/admin/admin3.png" width=300>
 Admin can delete members by clicking on them.
 
 ## Database
 ### Conceptional Design
-<img src="flight_reservation/screenshots/conceptual_design.png" width=500>
+<img src="screenshots/conceptual_design.png" width=500>
 
 ### Logical Design
-<img src="flight_reservation/screenshots/logical_design.png" width=500>
+<img src="screenshots/logical_design.png" width=500>
 
 ### Physical Design
 - To create database
